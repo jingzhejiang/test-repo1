@@ -1,0 +1,6 @@
+summary(gapminder$year)
+table(gapminder$continent)
+barplot(table(gapminder$continent))
+barplot(table(gapminder$country))
+library(ggplot)
+install.packages("ggplot2")
